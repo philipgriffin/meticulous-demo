@@ -59,6 +59,7 @@
           "namedChunks": false,
           "extractLicenses": true,
           "vendorChunk": false,
+          "baseHref": "meticulous-demo",
           "buildOptimizer": true,
           "budgets": [
             {
