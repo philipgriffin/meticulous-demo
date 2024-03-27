@@ -1,9 +1,0 @@
-@layer utilities {
-  .link-subtle {
-    @apply text-white text-opacity-70 hover:text-white focus-visible:text-white;
-  }
-
-  .no-select {
-    user-select: none;
-  }
-}

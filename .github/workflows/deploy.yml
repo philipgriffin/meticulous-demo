@@ -5,7 +5,7 @@ name: Pages Deployment 🚀
 
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
       - name: 📦 Upload Artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: './dist/apps/angular-spotify'
+          path: "./dist/"
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

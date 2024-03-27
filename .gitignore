@@ -4,9 +4,13 @@
 /dist
 /tmp
 /out-tsc
+/server/compiled
 
 # dependencies
 /node_modules
+
+#config values
+.env
 
 # IDEs and editors
 /.idea
@@ -31,13 +35,17 @@
 /coverage
 /libpeerconnection.log
 npm-debug.log
-yarn-error.log
 testem.log
 /typings
+.env
+server/compiled/
+src/img/uploads/
+src/assets/uploads
+
+# e2e
+/e2e/*.js
+/e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
-.eslintcache
-
-.angular
