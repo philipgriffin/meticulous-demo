@@ -40,7 +40,7 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
     AccountModule,
     AdminModule,
   ],
-  providers: [{ provide: APP_BASE_HREF, useValue: "/" }],
+  providers: [{ provide: APP_BASE_HREF, useValue: "/meticulous-demo" }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
