@@ -39,7 +39,7 @@
               "sourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
-              "baseHref": "/",
+              "baseHref": "meticulous-demo/",
               "vendorChunk": false,
               "buildOptimizer": true,
               "fileReplacements": [
